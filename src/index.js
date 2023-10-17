@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Service from "./pages/Service";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Portfolio from "./components/Portfolio";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,7 +21,7 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/service" element={<Service />} />
       </Routes>
-      <Footer />
+      {<Footer /> }
     </BrowserRouter>
   </React.StrictMode>
 );
